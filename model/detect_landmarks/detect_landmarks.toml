@@ -1,0 +1,25 @@
+# Copyright (c) Huawei Technologies Co., Ltd. 2022. All rights reserved.
+
+[base]
+name = "detect_landmarks"                                       # 功能单元名称
+device = "rknpu"                                                # 功能单元运行的设备类型
+version = "1.0.0"                                               # 功能单元版本号
+type = "inference"                                              # 功能单元类型，推理功能单元此处为固定值inference
+virtual_type = "rknpu2"                                         # 推理引擎类型，Windows当前只支持onnx模型的推理
+group_type = "Inference"                                        # 功能单元分组信息, 推理功能单元默认为Inference
+is_input_contiguous = "false"                                   # rk芯片推理时的固定属性
+description = "mobilenet v2 model for hand landmarks detection" # 功能单元的描述信息
+entry = "./mbv2_pig.rknn"                                      # 模型文件路径，默认在当前路径下
+
+# 模型输入节点描述：mobilenet v2 rknn模型输入是uint8格式的图片
+[input]
+[input.input1]
+name = "input"
+type = "uint8"
+device = "cpu"
+
+# 模型输出节点描述：mobilenet v2模型输出是float格式的特征向量
+[output]
+[output.output1]
+name = "output"
+type = "float"

@@ -1,0 +1,27 @@
+# 用于本地mock文件读取任务，脚本中已经配置了IVA_SVC_CONFIG环境变量, 添加了此文件路径
+########### 请确定使用linux的路径类型，比如在windows上要用  D:/xxx/xxx  不能用D:\xxx\xxx  ###########
+# 任务的参数为一个压缩并转义后的json字符串
+# 直接写需要转义双引号， 也可以用 content_file 添加一个json文件，如果content和content_file都存在content会被覆盖
+# content_file支持绝对路径或者相对路径，不支持解析环境变量(包括${HILENS_APP_ROOT}、${HILENS_DATA_DIR}等)
+[common]
+content = "{\"param_str\":\"string param\",\"param_int\":10,\"param_float\":10.5}"
+
+# 任务输入配置，当前支持以下几种输入方式：
+# 1. rtsp摄像头或rtsp视频流：type="rtsp", url="rtsp://xxx.xxx"
+# 2. 设备自带摄像头或者USB摄像头：type="url"，url="${摄像头编号}" （需配合local_camera功能单元使用）
+# 3. 本地视频文件：type="url"，url="${视频文件路径}" （请使用${HILENS_APP_ROOT}宏，表示当前应用的实际路径）
+# 4. http服务：type="url", url="http://xxx.xxx"（指的是任务作为http服务启动，此处需填写对外暴露的http服务地址，需配合httpserver类的功能单元使用）
+[input]
+type = "url"
+# url = "0"
+url = "${HILENS_APP_ROOT}/data/pig_test_video.mp4"
+
+# 任务输出配置，当前支持以下几种输出方式：
+# 1. rtsp视频流：type="local", url="rtsp://xxx.xxx" 
+# 2. 本地屏幕：type="local", url="0:xxx" （设备需要接显示器，系统需要带桌面）
+# 3. 本地视频文件：type="local"，url="${视频文件路径}" （请使用${HILENS_APP_ROOT}宏，表示当前应用的实际路径）
+# 4. http服务：type="webhook", url="http://xxx.xxx"（指的是任务产生的数据上报给某个http服务，此处需填写上传的http服务地址）
+[output]
+type = "local"
+url = "rtsp://192.168.3.36:8554/outstream" 
+# url = "${HILENS_APP_ROOT}/hilens_data_dir/pig_test_result.mp4"

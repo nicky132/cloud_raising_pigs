@@ -1,0 +1,336 @@
+[2024-01-22 02:07:51,471][ WARN][    iva_config.cc:143 ] update vas url failed. Fault, no vas projectid or iva endpoint
+[2024-01-22 02:07:51,472][ WARN][         timer.cc:208 ] Schedule timer failed, timer is not running.
+[2024-01-22 02:07:54,243][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 02:07:54,243][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 02:07:54,249][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 02:07:54,250][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 02:07:54,256][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 02:07:54,256][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 02:07:54,263][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 02:07:54,263][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 02:07:54,270][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 02:07:54,270][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 02:07:54,302][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 02:07:54,302][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 02:07:54,322][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 02:07:54,323][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 02:07:54,330][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 02:07:54,330][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 02:07:54,337][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 02:07:54,337][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 02:07:54,345][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 02:07:54,345][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 02:08:42,501][ WARN][ffmpeg_video_muxer.cc:78  ] Success: video stream has been written to /home/rock/modelbox/workspace/single_pig_pose/hilens_data_dir/hand_test_result.mp4
+[2024-01-22 02:08:42,503][ERROR][flow_scheduler.cc:438 ] the scheduler caught an error : Stop operation
+[2024-01-22 03:29:28,577][ WARN][    iva_config.cc:143 ] update vas url failed. Fault, no vas projectid or iva endpoint
+[2024-01-22 03:29:28,578][ WARN][         timer.cc:208 ] Schedule timer failed, timer is not running.
+[2024-01-22 03:29:30,311][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:29:30,311][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:29:30,317][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:29:30,318][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:29:30,324][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:29:30,324][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:29:30,331][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:29:30,331][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:29:30,338][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:29:30,338][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:29:30,372][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:29:30,372][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:29:30,394][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:29:30,394][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:29:30,401][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:29:30,401][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:29:30,408][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:29:30,409][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:29:30,417][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:29:30,417][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:29:59,860][ WARN][ffmpeg_video_muxer.cc:78  ] Success: video stream has been written to /home/rock/modelbox/workspace/single_pig_pose/hilens_data_dir/pig_test_result.mp4
+[2024-01-22 03:29:59,863][ERROR][flow_scheduler.cc:438 ] the scheduler caught an error : Stop operation
+[2024-01-22 03:32:15,246][ WARN][    iva_config.cc:143 ] update vas url failed. Fault, no vas projectid or iva endpoint
+[2024-01-22 03:32:15,247][ WARN][         timer.cc:208 ] Schedule timer failed, timer is not running.
+[2024-01-22 03:32:16,977][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:32:16,977][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:32:16,983][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:32:16,983][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:32:16,989][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:32:16,989][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:32:16,995][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:32:16,995][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:32:17,002][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:32:17,002][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:32:17,030][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:32:17,030][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:32:17,049][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:32:17,049][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:32:17,055][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:32:17,055][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:32:17,061][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:32:17,062][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:32:17,070][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:32:17,070][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:32:46,340][ WARN][ffmpeg_video_muxer.cc:78  ] Success: video stream has been written to /home/rock/modelbox/workspace/single_pig_pose/hilens_data_dir/pig_test_result.mp4
+[2024-01-22 03:32:46,342][ERROR][flow_scheduler.cc:438 ] the scheduler caught an error : Stop operation
+[2024-01-22 03:38:07,050][ WARN][    iva_config.cc:143 ] update vas url failed. Fault, no vas projectid or iva endpoint
+[2024-01-22 03:38:07,051][ WARN][         timer.cc:208 ] Schedule timer failed, timer is not running.
+[2024-01-22 03:38:08,778][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:38:08,778][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:38:08,784][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:38:08,784][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:38:08,791][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:38:08,791][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:38:08,798][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:38:08,798][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:38:08,806][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:38:08,806][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:38:08,839][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:38:08,839][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:38:08,860][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:38:08,860][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:38:08,868][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:38:08,868][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:38:08,874][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:38:08,875][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:38:08,883][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:38:08,883][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:40:23,287][ WARN][ffmpeg_video_muxer.cc:78  ] Success: video stream has been written to rtsp://192.168.3.36:8554/outstream
+[2024-01-22 03:40:23,290][ERROR][flow_scheduler.cc:438 ] the scheduler caught an error : Stop operation
+[2024-01-22 03:42:28,337][ WARN][    iva_config.cc:143 ] update vas url failed. Fault, no vas projectid or iva endpoint
+[2024-01-22 03:42:28,338][ WARN][         timer.cc:208 ] Schedule timer failed, timer is not running.
+[2024-01-22 03:42:30,055][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:42:30,055][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:42:30,061][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:42:30,061][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:42:30,068][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:42:30,068][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:42:30,074][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:42:30,074][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:42:30,080][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:42:30,081][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:42:30,106][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:42:30,107][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:42:30,125][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:42:30,125][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:42:30,131][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:42:30,131][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:42:30,138][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:42:30,138][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:42:30,146][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:42:30,146][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:43:29,165][ WARN][ffmpeg_video_muxer.cc:78  ] Success: video stream has been written to rtsp://192.168.3.36:8554/outstream
+[2024-01-22 03:43:29,167][ERROR][flow_scheduler.cc:438 ] the scheduler caught an error : Stop operation
+[2024-01-22 03:43:43,639][ WARN][    iva_config.cc:143 ] update vas url failed. Fault, no vas projectid or iva endpoint
+[2024-01-22 03:43:43,640][ WARN][         timer.cc:208 ] Schedule timer failed, timer is not running.
+[2024-01-22 03:43:45,377][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:43:45,377][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:43:45,383][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:43:45,384][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:43:45,390][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:43:45,390][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:43:45,396][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:43:45,396][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:43:45,403][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:43:45,404][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:43:45,431][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:43:45,431][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:43:45,449][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:43:45,449][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:43:45,455][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:43:45,455][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:43:45,462][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:43:45,462][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:43:45,469][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:43:45,469][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:44:44,774][ WARN][ffmpeg_video_muxer.cc:78  ] Success: video stream has been written to /home/rock/modelbox/workspace/single_pig_pose/hilens_data_dir/pig_test_result.mp4
+[2024-01-22 03:44:44,979][ERROR][flow_scheduler.cc:438 ] the scheduler caught an error : Stop operation
+[2024-01-22 03:47:57,937][ WARN][    iva_config.cc:143 ] update vas url failed. Fault, no vas projectid or iva endpoint
+[2024-01-22 03:47:57,938][ WARN][         timer.cc:208 ] Schedule timer failed, timer is not running.
+[2024-01-22 03:47:59,664][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:47:59,664][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:47:59,670][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:47:59,671][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:47:59,677][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:47:59,677][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:47:59,683][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:47:59,683][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:47:59,690][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:47:59,690][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:47:59,718][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:47:59,718][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:47:59,737][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:47:59,737][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:47:59,743][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:47:59,743][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:47:59,750][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:47:59,750][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:47:59,758][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 03:47:59,758][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 03:48:31,063][ WARN][ffmpeg_video_muxer.cc:78  ] Success: video stream has been written to rtsp://192.168.3.36:8554/outstream
+[2024-01-22 03:48:31,271][ERROR][flow_scheduler.cc:438 ] the scheduler caught an error : Stop operation
+[2024-01-22 04:02:41,295][ WARN][    iva_config.cc:143 ] update vas url failed. Fault, no vas projectid or iva endpoint
+[2024-01-22 04:02:41,295][ WARN][         timer.cc:208 ] Schedule timer failed, timer is not running.
+[2024-01-22 04:02:43,053][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:02:43,054][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:02:43,060][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:02:43,060][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:02:43,066][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:02:43,066][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:02:43,072][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:02:43,072][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:02:43,079][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:02:43,079][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:02:43,106][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:02:43,106][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:02:43,125][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:02:43,125][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:02:43,131][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:02:43,131][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:02:43,138][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:02:43,138][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:02:43,146][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:02:43,146][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:03:14,529][ WARN][ffmpeg_video_muxer.cc:78  ] Success: video stream has been written to rtsp://192.168.3.36:8554/outstream
+[2024-01-22 04:03:14,534][ERROR][flow_scheduler.cc:438 ] the scheduler caught an error : Stop operation
+[2024-01-22 04:32:20,728][ WARN][    iva_config.cc:143 ] update vas url failed. Fault, no vas projectid or iva endpoint
+[2024-01-22 04:32:20,728][ WARN][         timer.cc:208 ] Schedule timer failed, timer is not running.
+[2024-01-22 04:32:22,397][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:32:22,397][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:32:22,403][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:32:22,403][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:32:22,409][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:32:22,410][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:32:22,415][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:32:22,415][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:32:22,422][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:32:22,422][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:32:22,453][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:32:22,453][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:32:22,474][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:32:22,474][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:32:22,481][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:32:22,481][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:32:22,488][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:32:22,488][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:32:22,496][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:32:22,496][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:32:53,718][ WARN][ffmpeg_video_muxer.cc:78  ] Success: video stream has been written to /home/rock/modelbox/workspace/single_pig_pose/hilens_data_dir/pig_test_result.mp4
+[2024-01-22 04:32:53,721][ERROR][flow_scheduler.cc:438 ] the scheduler caught an error : Stop operation
+[2024-01-22 04:36:30,571][ WARN][    iva_config.cc:143 ] update vas url failed. Fault, no vas projectid or iva endpoint
+[2024-01-22 04:36:30,571][ WARN][         timer.cc:208 ] Schedule timer failed, timer is not running.
+[2024-01-22 04:36:32,329][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:36:32,329][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:36:32,335][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:36:32,335][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:36:32,342][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:36:32,342][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:36:32,348][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:36:32,348][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:36:32,356][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:36:32,356][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:36:32,383][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:36:32,383][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:36:32,401][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:36:32,401][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:36:32,408][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:36:32,408][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:36:32,415][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:36:32,415][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:36:32,423][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:36:32,423][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:37:04,002][ WARN][ffmpeg_video_muxer.cc:78  ] Success: video stream has been written to rtsp://192.168.3.36:8554/outstream
+[2024-01-22 04:37:04,008][ERROR][flow_scheduler.cc:438 ] the scheduler caught an error : Stop operation
+[2024-01-22 04:37:39,036][ WARN][    iva_config.cc:143 ] update vas url failed. Fault, no vas projectid or iva endpoint
+[2024-01-22 04:37:39,037][ WARN][         timer.cc:208 ] Schedule timer failed, timer is not running.
+[2024-01-22 04:37:40,794][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:37:40,795][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:37:40,801][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:37:40,801][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:37:40,807][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:37:40,807][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:37:40,814][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:37:40,814][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:37:40,822][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:37:40,822][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:37:40,849][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:37:40,849][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:37:40,868][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:37:40,868][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:37:40,874][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:37:40,874][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:37:40,881][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:37:40,881][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:37:40,889][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:37:40,889][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:38:12,211][ WARN][ffmpeg_video_muxer.cc:78  ] Success: video stream has been written to rtsp://192.168.3.36:8554/outstream
+[2024-01-22 04:38:12,215][ERROR][flow_scheduler.cc:438 ] the scheduler caught an error : Stop operation
+[2024-01-22 04:40:08,442][ WARN][    iva_config.cc:143 ] update vas url failed. Fault, no vas projectid or iva endpoint
+[2024-01-22 04:40:08,443][ WARN][         timer.cc:208 ] Schedule timer failed, timer is not running.
+[2024-01-22 04:40:10,164][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:40:10,164][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:40:10,170][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:40:10,170][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:40:10,176][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:40:10,176][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:40:10,182][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:40:10,182][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:40:10,190][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:40:10,190][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:40:10,216][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:40:10,216][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:40:10,234][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:40:10,235][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:40:10,241][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:40:10,241][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:40:10,248][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:40:10,248][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:40:10,255][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:40:10,255][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:40:41,430][ WARN][ffmpeg_video_muxer.cc:78  ] Success: video stream has been written to rtsp://192.168.3.36:8554/outstream
+[2024-01-22 04:40:41,436][ERROR][flow_scheduler.cc:438 ] the scheduler caught an error : Stop operation
+[2024-01-22 04:41:15,083][ WARN][    iva_config.cc:143 ] update vas url failed. Fault, no vas projectid or iva endpoint
+[2024-01-22 04:41:15,084][ WARN][         timer.cc:208 ] Schedule timer failed, timer is not running.
+[2024-01-22 04:41:16,847][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:41:16,847][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:41:16,853][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:41:16,853][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:41:16,860][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:41:16,860][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:41:16,865][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:41:16,866][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:41:16,873][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:41:16,873][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:41:16,905][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:41:16,905][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:41:16,923][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:41:16,924][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:41:16,930][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:41:16,930][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:41:16,937][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:41:16,937][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:41:16,945][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:41:16,945][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:41:48,293][ WARN][ffmpeg_video_muxer.cc:78  ] Success: video stream has been written to rtsp://192.168.3.36:8554/outstream
+[2024-01-22 04:41:48,298][ERROR][flow_scheduler.cc:438 ] the scheduler caught an error : Stop operation
+[2024-01-22 04:43:43,691][ WARN][    iva_config.cc:143 ] update vas url failed. Fault, no vas projectid or iva endpoint
+[2024-01-22 04:43:43,692][ WARN][         timer.cc:208 ] Schedule timer failed, timer is not running.
+[2024-01-22 04:43:45,456][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:43:45,456][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:43:45,462][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:43:45,462][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:43:45,469][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:43:45,469][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:43:45,475][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:43:45,475][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:43:45,482][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:43:45,482][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:43:45,510][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:43:45,510][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:43:45,529][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:43:45,529][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:43:45,535][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:43:45,536][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:43:45,542][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:43:45,542][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:43:45,551][ WARN][      flowunit.cc:515 ] generic is not match, you can use a-z, A-Z, 1-9, _ and uppercase the first character.
+[2024-01-22 04:43:45,551][ WARN][      flowunit.cc:396 ] check group type failed , your group_type is generic, the right group_type is a or a/b , for instance input or input/http.
+[2024-01-22 04:44:16,750][ WARN][ffmpeg_video_muxer.cc:78  ] Success: video stream has been written to rtsp://192.168.3.36:8554/outstream
+[2024-01-22 04:44:16,954][ERROR][flow_scheduler.cc:438 ] the scheduler caught an error : Stop operation

@@ -1,0 +1,62 @@
+# Copyright (c) Huawei Technologies Co., Ltd. 2022. All rights reserved.
+
+[driver]
+# 功能单元的扫描路径，包含在[]中，多个路径使用,分隔
+# ${HILENS_APP_ROOT} 表示当前应用的实际路径
+# ${HILENS_MB_SDK_PATH} 表示ModelBox核心库的实际路径
+dir = [
+    "${HILENS_APP_ROOT}/etc/flowunit",
+    "${HILENS_APP_ROOT}/etc/flowunit/cpp",
+    "${HILENS_APP_ROOT}/model",
+    "${HILENS_MB_SDK_PATH}/flowunit",
+]
+skip-default = true
+
+[profile]
+# 通过配置profile和trace开关启用应用的性能统计
+profile = false                       # 是否记录profile信息，每隔60s记录一次统计信息
+trace = false                         # 是否记录trace信息，在任务执行过程中和结束时，输出统计信息
+dir = "${HILENS_DATA_DIR}/mb_profile" # profile/trace信息的保存位置
+
+[flow]
+desc = "single hand pose estimation example using yolox and mobilenet-v2 for local usb camera" # 应用的简单描述
+
+[graph]
+format = "graphviz" # 流程图的格式，当前仅支持graphviz
+graphconf = """digraph single_pig_pose {
+    node [shape=Mrecord]
+    queue_size = 4
+    batch_size = 1
+	
+    # 定义节点，即功能单元及其属性
+    input1[type=input, flowunit=input, device=cpu, deviceid=0]
+    data_source_parser[type=flowunit, flowunit=data_source_parser, device=cpu, deviceid=0]
+    local_camera[type=flowunit, flowunit=local_camera, device=rknpu, deviceid=0, pix_fmt="bgr", cam_width=1280, cam_height=720] 
+    image_resize[type=flowunit, flowunit=resize, device=rknpu, deviceid=0, image_width=320, image_height=320]
+    detect_hand[type=flowunit, flowunit=detect_hand, device=rknpu, deviceid=0]
+    yolox_post[type=flowunit, flowunit=yolox_post, device=cpu, deviceid=0]
+    hand_condition[type=flowunit, flowunit=hand_condition, device=cpu, deviceid=0]
+    crop_hand_image[type=flowunit, flowunit=crop_hand_image, device=cpu, deviceid=0]
+    image_resize2[type=flowunit, flowunit=resize, device=cpu, deviceid=0, image_width=256, image_height=256]
+    detect_landmarks[type=flowunit, flowunit=detect_landmarks, device=rknpu, deviceid=0]
+    landmarks_post[type=flowunit, flowunit=landmarks_post, device=cpu, deviceid=0]
+    draw_hand_landmarks[type=flowunit, flowunit=draw_hand_landmarks, device=cpu, deviceid=0]
+    video_out[type=flowunit, flowunit=video_out, device=rknpu, deviceid=0]
+    
+    # 定义边，即功能间的数据传递关系
+    input1:input -> data_source_parser:in_data
+    data_source_parser:out_video_url -> local_camera:in_camera_packet
+    local_camera:out_camera_frame -> image_resize:in_image
+    image_resize:out_image -> detect_hand:input
+    detect_hand:output -> yolox_post:in_feat
+    yolox_post:out_data -> hand_condition:in_bbox
+    local_camera:out_camera_frame -> hand_condition:in_image
+    hand_condition:no_hand -> video_out:in_video_frame
+    hand_condition:has_hand -> crop_hand_image:in_data
+    crop_hand_image:roi_image -> image_resize2:in_image
+    image_resize2:out_image -> detect_landmarks:input
+    detect_landmarks:output -> landmarks_post:in_feat
+    landmarks_post:out_data -> draw_hand_landmarks:in_landmarks
+    hand_condition:has_hand -> draw_hand_landmarks:in_image
+    draw_hand_landmarks:out_image -> video_out:in_video_frame
+}"""

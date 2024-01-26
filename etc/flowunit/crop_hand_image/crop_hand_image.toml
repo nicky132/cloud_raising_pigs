@@ -1,0 +1,29 @@
+# Copyright (c) Huawei Technologies Co., Ltd. 2022. All rights reserved.
+
+# 基础配置
+[base]
+name = "crop_hand_image"                                  # 功能单元名称
+device = "cpu"                                            # 功能单元运行的设备类型，Python功能单元仅支持cpu类型
+version = "1.0.0"                                         # 功能单元版本号
+type = "python"                                           # 功能单元类型，Python功能单元此处为固定值python
+group_type = "generic"                                    # 功能单元分组信息, 包括input/output/image/video/inference/generic等，默认为generic
+description = "crop hand image with max roi from a frame" # 功能单元的功能描述信息
+entry = "crop_hand_image@crop_hand_imageFlowUnit"         # Python功能单元入口
+
+# 工作模式，以下配置项默认全为false，表示通用功能单元；且配置项之间互斥，即最多只能设置其中一个为true
+stream = false    # 是否是Stream类型功能单元
+condition = false # 是否是条件功能单元
+collapse = false  # 是否是合并功能单元
+expand = false    # 是否是展开功能单元
+
+# 输入端口描述
+[input]
+[input.input1] # 输入数据
+name = "in_data" # 原图 + 猪只检测框（检测框以属性方式附加在原图上）
+type = "uint8"   # 原图数据格式为 uint8
+
+# 输出端口描述
+[output]
+[output.output1] # 输出数据
+name = "roi_image" # 裁剪出的猪只roi图片
+type = "uint8"     # roi图片数据格式为 uint8

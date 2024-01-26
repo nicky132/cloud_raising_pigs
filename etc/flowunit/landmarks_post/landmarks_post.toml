@@ -1,0 +1,32 @@
+# Copyright (c) Huawei Technologies Co., Ltd. 2022. All rights reserved.
+
+[base]
+name = "landmarks_post"                          # 功能单元名称
+device = "cpu"                                   # 功能单元运行的设备类型，Python功能单元仅支持cpu类型
+version = "1.0.0"                                # 功能单元版本号
+type = "python"                                  # 功能单元类型，Python功能单元此处为固定值python
+group_type = "generic"                           # 功能单元分组信息, 包括input/output/image/video/inference/generic等，默认为generic
+description = "post-process for landmarks model" # 功能单元的功能描述信息
+entry = "landmarks_post@landmarks_postFlowUnit"  # Python功能单元入口
+
+# 工作模式，以下配置项默认全为false，表示通用功能单元；且配置项之间互斥，即最多只能设置其中一个为true
+stream = false    # 是否是Stream类型功能单元
+condition = false # 是否是条件功能单元
+collapse = false  # 是否是合并功能单元
+expand = false    # 是否是展开功能单元
+
+# 自定义的配置项：猪只关键点模型后处理使用的参数
+[config]
+kps = 15
+
+# 输入端口描述
+[input]
+[input.input1] # 输入数据：模型的特征向量输出，类型为float
+name = "in_feat"
+type = "float"
+
+# 输出端口描述
+[output]
+[output.output1] # 输出数据：转为json字符串格式的猪只关键点数据
+name = "out_data"
+type = "string"

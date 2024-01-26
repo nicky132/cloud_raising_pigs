@@ -1,0 +1,37 @@
+# Copyright (c) Huawei Technologies Co., Ltd. 2022. All rights reserved.
+
+# 基础配置
+[base]
+name = "draw_hand_landmarks"                                # 功能单元名称
+device = "cpu"                                              # 功能单元运行的设备类型，Python功能单元仅支持cpu类型
+version = "1.0.0"                                           # 功能单元版本号
+type = "python"                                             # 功能单元类型，Python功能单元此处为固定值python
+group_type = "generic"                                      # 功能单元分组信息, 包括input/output/image/video/inference/generic等，默认为generic
+description = "draw hand landmarks with max roi in a frame" # 功能单元的功能描述信息
+entry = "draw_hand_landmarks@draw_hand_landmarksFlowUnit"   # Python功能单元入口
+
+# 工作模式，以下配置项默认全为false，表示通用功能单元；且配置项之间互斥，即最多只能设置其中一个为true
+stream = false    # 是否是Stream类型功能单元
+condition = false # 是否是条件功能单元
+collapse = false  # 是否是合并功能单元
+expand = false    # 是否是展开功能单元
+
+# 自定义的配置项：画手部关键点需要使用的参数
+[config]
+vis_thres = 0.1 # 关键点置信度阈值，达到此阈值才认为是一个可能的关键点
+
+# 输入端口描述
+[input]
+[input.input1] # 输入数据1：原图 + 手部检测框（检测框以属性方式附加在原图上）
+name = "in_image"
+type = "uint8"
+
+[input.input2] # 输入数据2：转为json字符串格式的手部关键点数据
+name = "in_landmarks"
+type = "string"
+
+# 输出端口描述
+[output]
+[output.output1] # 输出数据：画上手部关键点的图片
+name = "out_image"
+type = "uint8"

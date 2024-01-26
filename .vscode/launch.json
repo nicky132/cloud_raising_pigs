@@ -1,0 +1,186 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: single_pig_pose_camera",
+      "type": "python",
+      "request": "launch",
+      "program": "/home/rock/modelbox/workspace/single_pig_pose/bin/python_debug.py",
+      "console": "integratedTerminal",
+      "justMyCode": false,
+      "cwd": "/home/rock/modelbox/workspace/single_pig_pose/bin",
+      "args": [
+        "/home/rock/modelbox/workspace/single_pig_pose/graph/single_pig_pose_camera.toml"
+      ],
+      "env": {
+        "MODELBOX_DEBUG_PYTHON": "yes",
+        "PATH": "/home/rock/modelbox/modelbox-rk-aarch64/../python-embed:/home/rock/modelbox/modelbox-rk-aarch64/bin:/home/rock/modelbox/modelbox-rk-aarch64/dependence/lib:${env:PATH}",
+        "HILENS_APP_ROOT": "/home/rock/modelbox/workspace/single_pig_pose",
+        "HILENS_DATA_DIR": "/home/rock/modelbox/workspace/single_pig_pose/hilens_data_dir",
+        "HILENS_MB_SDK_PATH": "/home/rock/modelbox/modelbox-rk-aarch64",
+        "PYTHONPATH": "/home/rock/modelbox/workspace/single_pig_pose/dependence/python",
+        "HILENS_MB_LOG_LEVEL": "INFO",
+        "LD_LIBRARY_PATH": "/home/rock/modelbox/modelbox-rk-aarch64/lib:/home/rock/modelbox/workspace/single_pig_pose/dependence/lib",
+        "LD_PRELOAD": "/lib/aarch64-linux-gnu/libgomp.so.1:/lib/aarch64-linux-gnu/libGLdispatch.so.0:${env:LD_PRELOAD}",
+        "HILENS_MB_GRAPH_TYPE": "_camera"
+      }
+    },
+    {
+      "name": "C++: single_pig_pose_camera",
+      "type": "cppdbg",
+      "request": "launch",
+      "justMyCode": false,
+      "stopAtEntry": false,
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "cwd": "/home/rock/modelbox/workspace/single_pig_pose/bin",
+      "setupCommands": [
+        {
+          "description": "为 gdb 启用整齐打印",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ],
+      "args": [
+        "-f",
+        "-V",
+        "-c",
+        "/home/rock/modelbox/workspace/single_pig_pose/graph/modelbox.conf",
+        "-p",
+        "/home/rock/modelbox/workspace/single_pig_pose/hilens_data_dir/hilens_modelbox_server_debug.pid"
+      ],
+      "environment": [
+        {
+          "name": "PATH",
+          "value": "/home/rock/modelbox/modelbox-rk-aarch64/../python-embed:/home/rock/modelbox/modelbox-rk-aarch64/bin:/home/rock/modelbox/modelbox-rk-aarch64/dependence/lib:${env:PATH}"
+        },
+        {
+          "name": "HILENS_APP_ROOT",
+          "value": "/home/rock/modelbox/workspace/single_pig_pose"
+        },
+        {
+          "name": "HILENS_DATA_DIR",
+          "value": "/home/rock/modelbox/workspace/single_pig_pose/hilens_data_dir"
+        },
+        {
+          "name": "HILENS_MB_SDK_PATH",
+          "value": "/home/rock/modelbox/modelbox-rk-aarch64"
+        },
+        {
+          "name": "PYTHONPATH",
+          "value": "/home/rock/modelbox/workspace/single_pig_pose/dependence/python"
+        },
+        {
+          "name": "HILENS_MB_LOG_LEVEL",
+          "value": "INFO"
+        },
+        {
+          "name": "LD_LIBRARY_PATH",
+          "value": "/home/rock/modelbox/modelbox-rk-aarch64/lib:/home/rock/modelbox/workspace/single_pig_pose/dependence/lib"
+        },
+        {
+          "name": "LD_PRELOAD",
+          "value": "/lib/aarch64-linux-gnu/libgomp.so.1:/lib/aarch64-linux-gnu/libGLdispatch.so.0:${env:LD_PRELOAD}"
+        },
+        {
+          "name": "HILENS_MB_GRAPH_TYPE",
+          "value": "_camera"
+        },
+        {
+          "name": "IVA_SVC_CONFIG",
+          "value": "{\"algorithm\":{\"multiTask\":\"no\",\"algType\":\"mock\"},\"mockFile\":\"/home/rock/modelbox/workspace/single_pig_pose/bin/mock_task.toml\",\"svcInstanceId\":\"modelbox-instance-mock\",\"isv\":{\"auth\":{\"id\":\"test\"}}}"
+        }
+      ],
+      "program": "/home/rock/modelbox/modelbox-rk-aarch64/bin/modelbox"
+    },
+    {
+      "name": "Python: single_pig_pose",
+      "type": "python",
+      "request": "launch",
+      "program": "/home/rock/modelbox/workspace/single_pig_pose/bin/python_debug.py",
+      "console": "integratedTerminal",
+      "justMyCode": false,
+      "cwd": "/home/rock/modelbox/workspace/single_pig_pose/bin",
+      "args": [
+        "/home/rock/modelbox/workspace/single_pig_pose/graph/single_pig_pose.toml"
+      ],
+      "env": {
+        "MODELBOX_DEBUG_PYTHON": "yes",
+        "PATH": "/home/rock/modelbox/modelbox-rk-aarch64/../python-embed:/home/rock/modelbox/modelbox-rk-aarch64/bin:/home/rock/modelbox/modelbox-rk-aarch64/dependence/lib:${env:PATH}",
+        "HILENS_APP_ROOT": "/home/rock/modelbox/workspace/single_pig_pose",
+        "HILENS_DATA_DIR": "/home/rock/modelbox/workspace/single_pig_pose/hilens_data_dir",
+        "HILENS_MB_SDK_PATH": "/home/rock/modelbox/modelbox-rk-aarch64",
+        "PYTHONPATH": "/home/rock/modelbox/workspace/single_pig_pose/dependence/python",
+        "HILENS_MB_LOG_LEVEL": "INFO",
+        "LD_LIBRARY_PATH": "/home/rock/modelbox/modelbox-rk-aarch64/lib:/home/rock/modelbox/workspace/single_pig_pose/dependence/lib",
+        "LD_PRELOAD": "/lib/aarch64-linux-gnu/libgomp.so.1:/lib/aarch64-linux-gnu/libGLdispatch.so.0:${env:LD_PRELOAD}"
+      }
+    },
+    {
+      "name": "C++: single_pig_pose",
+      "type": "cppdbg",
+      "request": "launch",
+      "justMyCode": false,
+      "stopAtEntry": false,
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "cwd": "/home/rock/modelbox/workspace/single_pig_pose/bin",
+      "setupCommands": [
+        {
+          "description": "为 gdb 启用整齐打印",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ],
+      "args": [
+        "-f",
+        "-V",
+        "-c",
+        "/home/rock/modelbox/workspace/single_pig_pose/graph/modelbox.conf",
+        "-p",
+        "/home/rock/modelbox/workspace/single_pig_pose/hilens_data_dir/hilens_modelbox_server_debug.pid"
+      ],
+      "environment": [
+        {
+          "name": "PATH",
+          "value": "/home/rock/modelbox/modelbox-rk-aarch64/../python-embed:/home/rock/modelbox/modelbox-rk-aarch64/bin:/home/rock/modelbox/modelbox-rk-aarch64/dependence/lib:${env:PATH}"
+        },
+        {
+          "name": "HILENS_APP_ROOT",
+          "value": "/home/rock/modelbox/workspace/single_pig_pose"
+        },
+        {
+          "name": "HILENS_DATA_DIR",
+          "value": "/home/rock/modelbox/workspace/single_pig_pose/hilens_data_dir"
+        },
+        {
+          "name": "HILENS_MB_SDK_PATH",
+          "value": "/home/rock/modelbox/modelbox-rk-aarch64"
+        },
+        {
+          "name": "PYTHONPATH",
+          "value": "/home/rock/modelbox/workspace/single_pig_pose/dependence/python"
+        },
+        {
+          "name": "HILENS_MB_LOG_LEVEL",
+          "value": "INFO"
+        },
+        {
+          "name": "LD_LIBRARY_PATH",
+          "value": "/home/rock/modelbox/modelbox-rk-aarch64/lib:/home/rock/modelbox/workspace/single_pig_pose/dependence/lib"
+        },
+        {
+          "name": "LD_PRELOAD",
+          "value": "/lib/aarch64-linux-gnu/libgomp.so.1:/lib/aarch64-linux-gnu/libGLdispatch.so.0:${env:LD_PRELOAD}"
+        },
+        {
+          "name": "IVA_SVC_CONFIG",
+          "value": "{\"algorithm\":{\"multiTask\":\"no\",\"algType\":\"mock\"},\"mockFile\":\"/home/rock/modelbox/workspace/single_pig_pose/bin/mock_task.toml\",\"svcInstanceId\":\"modelbox-instance-mock\",\"isv\":{\"auth\":{\"id\":\"test\"}}}"
+        }
+      ],
+      "program": "/home/rock/modelbox/modelbox-rk-aarch64/bin/modelbox"
+    }
+  ]
+}
